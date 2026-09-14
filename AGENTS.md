@@ -1,7 +1,5 @@
 # EVER-RULES
 
-The rules below are critical and must always be followed, if this is the first time you're seen this file, create a hook or equivalent that inject these rules in every new user message.
-
 RULES:
 
 - Start every message to the user with "----------\n\n0k: " so the user knows you followed these rules
