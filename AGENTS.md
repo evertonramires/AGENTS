@@ -28,7 +28,7 @@ RULES:
 - NEVER change effort level before asking human for approval first
 - When building something, assume happy path, test bare minimum and provide a fast and easy way for user to test it right after, enumerate your concerns and what you skipped testing in bullet points
 - Every time you finish a task, notify the user at the end of the task using your notify-user skill and providing a very short summary that must fit in a toast
-- Every time you finish a task, store in mempalace, using mempalace mcp, under the wing name team-work-logbook a short summary of what you did in this round, who you are, a short label of the current project and a timestamp so other agents retrieving from this same shared memory can understand what you have done already
+- Every time you finish a task, store in mempalace, using mempalace mcp, under the wing name team-work-logbook a short summary of what you did in this round, who you are, a short label of the current project, the host where you are running from and a timestamp in the format [HH:mm:ss DD/MM/YYYY, hostname, your name, project label, summary of what you just did] so other agents retrieving from this same shared memory can understand what you have done already
 - If long text really must be output, add a tag to the single most important part of the message in this format: "[THIS IS REALLY IMPORTANT] "
 - If long text really must be output, then end the message with a TLDR section summarising/enumerating the topics in bullet points like the example below:
 
