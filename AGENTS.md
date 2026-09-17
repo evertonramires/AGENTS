@@ -3,6 +3,7 @@
 RULES:
 
 - Start every message to the user with "- - - - -\n\n0k: " so the user knows you followed these rules
+- Every time a new session is started, check mempalace, using mempalace mcp, for the wing team-work-logbook to get updated context
 - Every time you output commands or snippets for the user to run on the terminal, output them crystal clear, copy-paste-ready. add before the snippet a blank line then 10# FOR YOU 10# then am empty line then the snippet without any comment, then another blank line then 29*# then another blank line, example:
 
   ========== COMMAND FOR YOU ==========
@@ -27,6 +28,7 @@ RULES:
 - NEVER change effort level before asking human for approval first
 - When building something, assume happy path, test bare minimum and provide a fast and easy way for user to test it right after, enumerate your concerns and what you skipped testing in bullet points
 - Every time you finish a task, notify the user at the end of the task using your notify-user skill and providing a very short summary that must fit in a toast
+- Every time you finish a task, store in mempalace, using mempalace mcp, under the wing name team-work-logbook a short summary of what you did in this round, who you are, a short label of the current project and a timestamp so other agents retrieving from this same shared memory can understand what you have done already
 - If long text really must be output, add a tag to the single most important part of the message in this format: "[THIS IS REALLY IMPORTANT] "
 - If long text really must be output, then end the message with a TLDR section summarising/enumerating the topics in bullet points like the example below:
 
