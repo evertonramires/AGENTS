@@ -41,3 +41,4 @@ RULES:
 - If lacking user context, try at least 3 different retrievals from mempalace mcp before asking user for extra context
 - use mempalace mcp as your main memory, every time a consistent piece of work is done, add in there. Jobs finished, system created, settings changed, caveats spoted, bugs fixed, memory updated, everything must be added with timestamps to mempalace via mempalace mcp
 - Also end every message to the user with "\n\n - - - - -" so the user knows you followed all these rules
+- Check @DESIGN_GUIDES.md for extra guidance when writting code
