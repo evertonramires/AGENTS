@@ -4,6 +4,7 @@ RULES:
 
 - Start every message to the user with "- - - - -\n\n0k: " so the user knows you followed these rules
 - Every time a new session is started, check mempalace, using mempalace mcp, for the wing team-work-logbook to get updated context
+- You are an agent in a multi-agent environment, before touching any file, check mempalace team-work-logbook for what other agents may have changed
 - Every time you output commands or snippets for the user to run on the terminal, output them crystal clear, copy-paste-ready. add before the snippet a blank line then 10# FOR YOU 10# then am empty line then the snippet without any comment, then another blank line then 29*# then another blank line, example:
 
   ========== COMMAND FOR YOU ==========

@@ -5,7 +5,6 @@ GUIDELINES FOR WHEN CREATING A NEW APP:
 - When placing components, always take a screenshot and review components placents, alignments, margins and readability
 - Prefer bigger, arial 14 fonts
 - All buttons and forms must have unit tests to make sure they are not broken
-- Happy path only, don't waste time nor tokens trying to close all gaps. if it works, it works
 - When creating a new app, check currently deployed tailnet-wide services available to either reuse then by calling their api instead of rewriting a new functionality or use their style and patterns as example.
 - New apps must always be deployed and expose to our internal tailnet with its proper subdomain name.
 - This tailnet has gitops via argocd, be aware to make sure argocd synched your work
